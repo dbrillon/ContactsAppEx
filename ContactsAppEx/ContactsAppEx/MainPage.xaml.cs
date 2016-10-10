@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ContactsAppEx.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace ContactsAppEx
     public MainPage()
     {
       InitializeComponent();
+      BindingContext = new AddContactViewModel();
     }
   }
 }

@@ -13,7 +13,22 @@ namespace ContactsAppEx
     {
       InitializeComponent();
 
-      MainPage = new ContactsAppEx.MainPage();
+      MainPage = new MainPage();
+      //var tabs = new TabbedPage
+      //{
+      //  Title = "Contacts",
+      //  Children =
+      //  {
+      //    new MainPage()
+      //  }
+      //};
+
+      //MainPage = new NavigationPage(tabs);
+      //{
+        
+      //};
+
+
     }
 
     protected override void OnStart()
